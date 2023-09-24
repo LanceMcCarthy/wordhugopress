@@ -15,28 +15,7 @@ app:
   sources:
     regular:
       wordpress-home: /path/to/wordpress/files/public_html
-      wordpress-remote-base-url: http://wordpress-blog.com/
-      database:
-        url: jdbc:mysql://localhost:3306/wordpressdb_wp1
-        username: root
-        password: mysql
-      tags:
-        - 'regular'
-      categories:
-        - 'Basic posts'
-    shop:
-      wordpress-home: /path/to/another_wordpress/files/public_html
-      wordpress-remote-base-url: http://anotherwordpress.com/
-      target-resource-suffix: "-s"
-      database:
-        url: jdbc:mysql://localhost:3306/wordpressdb_wp2
-        username: root
-        password: mysql
-      tags:
-        - 'extra'
-      categories:
-        - 'Limited edition posts'
+      wordpress-remote-base-url: https://dvlup.com/
   target:
     hugo-site-content-items-dir: output/blog/content/posts
-
 
